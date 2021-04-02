@@ -8,7 +8,7 @@ def revword(word):
     return note
   
 def countword():
-    file= open("C:/Users/Noa Azuz/Desktop/Studies/KnowledgeAndData/TwoTask/text.txt","r")
+    file= open("text.txt","r")
     countWord=0
     saveWord=file.readline()
     saveWord=saveWord.strip()
@@ -21,6 +21,6 @@ def countword():
     return countWord+1
     #print(saveWord)
 
-
+#countword()
 
 
